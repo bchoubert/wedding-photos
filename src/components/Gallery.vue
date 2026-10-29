@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full bg-white text-[#181818] min-h-2">
+  <div class="w-full bg-white text-[#181818] min-h-2 relative">
     <!-- Filter for mobile -->
-    <div class="block lg:hidden w-full">
+    <div class="block lg:hidden w-full sticky top-0 z-1000">
       <GallerySelect :filter="filter" @change-filter="changeFilter" />
     </div>
 
